@@ -1,7 +1,5 @@
-# 🌎 EchoBubble
-
 <p align="center">
-  <img src="assets/logoEcho.png" width="180" alt="EchoBubble Logo">
+  <img src="echobubble/assets/logoEcho.png" width="180" alt="EchoBubble Logo">
 </p>
 
 <p align="center">
@@ -26,7 +24,7 @@ Converse em qualquer idioma sem sair do chat.
 ## 📷 Demonstração
 
 <p align="center">
-  <img src="assets/bannerEcho.png" alt="Banner EchoBubble">
+  <img src="echobubble/assets/bannerEcho.png" alt="Banner EchoBubble">
 </p>
 
 ---
