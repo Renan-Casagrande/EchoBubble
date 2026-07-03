@@ -13,3 +13,5 @@ Desktop.ini
 
 # Dependências (caso use no futuro)
 node_modules/
+
+*.zip

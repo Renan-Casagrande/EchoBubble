@@ -18,11 +18,24 @@ elAtivado.addEventListener("change", () => {
 });
 
 elOrigem.addEventListener("change", () => {
+
+    if (elOrigem.value === elDestino.value) {
+        elStatus.textContent = "⚠️ Escolha idiomas diferentes";
+        elStatus.style.color = "#f59e0b";
+        return;
+    }
+    
     chrome.storage.sync.set({ origem: elOrigem.value });
     mostrarSalvo();
 });
 
 elDestino.addEventListener("change", () => {
+    if (elOrigem.value === elDestino.value) {
+        elStatus.textContent = "⚠️ Escolha idiomas diferentes";
+        elStatus.style.color = "#f59e0b";
+        return;
+    }
+
     chrome.storage.sync.set({ destino: elDestino.value });
     mostrarSalvo();
 });

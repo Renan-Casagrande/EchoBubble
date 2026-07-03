@@ -3,7 +3,7 @@
 
 const Logger = (() => {
 
-    const DEBUG = true;
+    const DEBUG = false;
     const PREFIX = "[EchoBubble]";
 
     return {

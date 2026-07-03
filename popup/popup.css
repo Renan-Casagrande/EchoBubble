@@ -1,7 +1,7 @@
 /* EchoBubble - popup.css */
 
 body {
-    width: 260px;
+    width: 280px;
     padding: 16px;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -70,4 +70,11 @@ select:focus {
     text-align: center;
     color: #bbb;
     font-size: 11px;
+}
+
+.powered{
+    margin-top:4px;
+    text-align:center;
+    font-size:11px;
+    color:#999;
 }

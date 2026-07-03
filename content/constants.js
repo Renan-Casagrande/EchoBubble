@@ -3,7 +3,7 @@
 
 const ECHOBUBBLE = {
 
-    VERSION: "1.1",
+    VERSION: "1.0.0",
 
     CACHE_TTL_MS: 3600000, // 1 hora
 
@@ -15,7 +15,7 @@ const ECHOBUBBLE = {
     },
 
     BANDEIRAS: {
-        af: "🇿🇦", // Africâner
+        de: "🇩🇪", // Alemão
         ar: "🇸🇦", // Árabe
         zh: "🇨🇳", // Chinês
         ko: "🇰🇷", // Coreano
@@ -60,7 +60,71 @@ const ECHOBUBBLE = {
         "sim":        "Yes",
         "não":        "No",
         "tchau":      "Bye",
-        "até mais":   "See you later"
+        "até mais":   "See you later",
+
+        "blz":        "Okay",
+        "beleza":     "Okay",
+        "tranquilo":  "No problem",
+        "de boa":     "It's all good",
+        "fechado":    "Deal",
+        "demorou":    "Sounds good",
+        "tmj":        "We're together",
+        "tamo junto": "We're together",
+        "suave":      "All good",
+        "show":       "Awesome",
+        "massa":      "Awesome",
+        "top":        "Great",
+        "show de bola": "Awesome",
+        "falou":      "See you",
+        "flw":        "See you",
+        "vlw":        "Thanks",
+        "obg":        "Thanks",
+        "obgd":       "Thank you",
+        "obrigadão":  "Thanks a lot",
+        "brigado":    "Thanks",
+        "brigadão":   "Thanks a lot",
+
+        "bom trabalho":  "Good job",
+        "parabéns":      "Congratulations",
+        "com certeza":   "Of course",
+        "claro":         "Of course",
+        "sem problemas": "No problem",
+        "sem problema":  "No problem",
+        "aguarde":       "Please wait",
+        "espera aí":     "Hold on",
+        "pera aí":       "Hold on",
+        "já volto":      "I'll be right back",
+        "até amanhã":    "See you tomorrow",
+        "até logo":      "See you later",
+        "até já":        "See you soon",
+
+        "kk":            "Haha",
+        "kkk":           "Haha",
+        "kkkk":          "Hahaha",
+        "kkkkk":         "Hahaha",
+        "kkkkkk":        "Hahaha",
+        "rs":            "Haha",
+        "rss":           "Haha",
+        "rsrs":          "Haha",
+        "rsrsrs":        "Hahaha",
+
+        "e aí":          "What's up?",
+        "oi":            "Hi",
+        "opa":           "Hey",
+        "eae":           "Hey",
+        "fala":          "Hey",
+        "fala aí":       "Hey",
+        "tudo certo":    "Everything okay?",
+        "como vai":      "How are you?",
+
+        "ok":            "Okay",
+        "okay":          "Okay",
+        "certo":         "Alright",
+        "perfeito":      "Perfect",
+        "combinado":     "Agreed",
+        "entendi":       "I understand",
+        "entendido":     "Understood",
+        "pode ser":      "Sounds good",
     },
 
     DEFAULTS: {

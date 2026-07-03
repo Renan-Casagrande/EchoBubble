@@ -12,10 +12,17 @@ const Observer = (() => {
         const el = document.createElement("div");
         el.className = "echobubble-traducao" + (erro ? " echobubble-traducao--erro" : "");
         el.dataset.echobubble = "true";
-        el.innerHTML = `
-            <span class="echobubble-flag">${erro ? "⚠️" : bandeira}</span>
-            <span>${textoTraduzido}</span>
-        `;
+
+        const flag = document.createElement("span");
+        flag.className = "echobubble-flag";
+        flag.textContent = erro ? "⚠️" : bandeira;
+
+        const texto = document.createElement("span");
+        texto.textContent = textoTraduzido;
+
+        el.appendChild(flag);
+        el.appendChild(texto);
+
         return el;
     }
 
