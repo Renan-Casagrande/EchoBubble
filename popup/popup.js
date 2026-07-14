@@ -41,7 +41,7 @@ elDestino.addEventListener("change", () => {
 });
 
 function atualizarStatus() {
-    elStatus.textContent = elAtivado.checked ? "✅ Ativa" : "⏸ Pausada";
+    elStatus.textContent = elAtivado.checked ? "🟢 Tradução ativa" : "⚪ Tradução pausada";
     elStatus.style.color = elAtivado.checked ? "#4caf50" : "#999";
 }
 
