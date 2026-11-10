@@ -40,6 +40,12 @@ const Bubble = (() => {
         bubble = criar();
         atualizar();
         Storage.aoMudar(atualizar);
+
+        // Avisa no botão quando o limite diário acabar
+        document.addEventListener("echobubble:limite", () => {
+            bubble.textContent = "⚠️ Limite diário atingido";
+            bubble.classList.add("echobubble-bubble--pausado");
+        });
     }
 
     return { init, atualizar };

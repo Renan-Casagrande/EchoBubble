@@ -105,3 +105,37 @@ select:focus {
     display:block;
     margin:0 auto 12px;
 }
+
+input[type="email"] {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 4px;
+    padding: 6px 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 13px;
+    background: #fafafa;
+}
+
+input[type="email"]:focus {
+    outline: 2px solid #3B82F6;
+    border-color: transparent;
+}
+
+.aviso {
+    margin: 8px 0 0;
+    font-size: 11px;
+    color: #777;
+    line-height: 1.4;
+}
+
+.aviso a {
+    color: #3B82F6;
+}
+
+.email-status {
+    margin: 4px 0 0;
+    font-size: 11px;
+    font-weight: bold;
+    min-height: 14px;
+}

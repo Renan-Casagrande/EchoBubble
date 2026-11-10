@@ -1,48 +1,40 @@
-Política de Privacidade – EchoBubble
+# Política de Privacidade – EchoBubble
 
-Última atualização: Julho de 2026
+Última atualização: Novembro de 2026
 
-Visão geral
+## Visão geral
 
-O EchoBubble foi desenvolvido para traduzir automaticamente mensagens do WhatsApp Web, facilitando a comunicação entre pessoas de diferentes idiomas.
+O EchoBubble traduz automaticamente mensagens do WhatsApp Web, facilitando a comunicação entre pessoas de diferentes idiomas. A privacidade dos usuários é uma prioridade.
 
-A privacidade dos usuários é uma prioridade.
+## Dados processados
 
-Dados coletados
+**Texto das mensagens.** Para realizar a tradução, o texto das mensagens exibidas na tela é enviado ao serviço público de tradução MyMemory (https://mymemory.translated.net). O EchoBubble não possui servidores próprios e não armazena, registra ou compartilha essas mensagens em nenhum servidor controlado pelo desenvolvedor.
 
-O EchoBubble não coleta informações pessoais como:
+**E-mail (opcional).** O usuário pode informar seu e-mail na tela da extensão. Ele serve apenas para ampliar o limite diário gratuito do serviço MyMemory (de 5.000 para 50.000 caracteres por dia). Quando informado, o e-mail é enviado ao MyMemory junto com as solicitações de tradução. Informar o e-mail é totalmente opcional, e a extensão funciona sem ele.
 
-Nome
-E-mail
-Senhas
-Localização
-Dados financeiros
-Conteúdo das mensagens
+## Armazenamento no navegador
 
-Para realizar a tradução, o texto das mensagens é enviado temporariamente ao serviço público de tradução MyMemory.
+A extensão utiliza a API chrome.storage para salvar, apenas no navegador do usuário:
 
-O EchoBubble não armazena, registra ou compartilha essas mensagens.
+- Idioma de origem e idioma de destino
+- Estado da tradução (ativada ou desativada)
+- E-mail opcional, se informado
+- Cache de traduções recentes, que inclui o texto das mensagens traduzidas, mantido por até 7 dias para evitar traduzir a mesma mensagem novamente
 
-Armazenamento local
+As configurações podem ser sincronizadas entre os dispositivos do usuário pela conta do Chrome. Todos esses dados são removidos ao desinstalar a extensão.
 
-A extensão utiliza apenas a API chrome.storage para salvar:
+## Dados que não coletamos
 
-Idioma de origem
-Idioma de destino
-Estado da tradução (ativada/desativada)
+O EchoBubble não coleta nome, senhas, localização, dados financeiros ou de saúde, histórico de navegação nem atividade do usuário.
 
-Essas informações permanecem apenas no navegador do usuário.
+## Compartilhamento de dados
 
-Compartilhamento de dados
+O EchoBubble não vende dados e não os compartilha com terceiros, exceto o envio do texto a ser traduzido (e do e-mail, se informado) ao serviço MyMemory, necessário para o funcionamento da extensão. O tratamento dos dados por esse serviço segue as políticas dele.
 
-O EchoBubble não vende nem compartilha dados pessoais com terceiros.
-
-Alterações nesta política
+## Alterações nesta política
 
 Esta política poderá ser atualizada conforme novas funcionalidades forem adicionadas.
 
-Contato
+## Contato
 
-GitHub:
-
-https://github.com/Renan-Casagrande/EchoBubble
+GitHub: https://github.com/Renan-Casagrande/EchoBubble

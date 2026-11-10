@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "EchoBubble",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "Tradução automática em tempo real para WhatsApp Web",
 
     "permissions": [

@@ -7,10 +7,11 @@ const Storage = (() => {
     const listeners = [];
 
     function carregar(callback) {
-        chrome.storage.sync.get(["ativo", "origem", "destino"], (dados) => {
-            if (dados.ativo  !== undefined) config.ativo  = dados.ativo;
-            if (dados.origem)               config.origem = dados.origem;
-            if (dados.destino)              config.destino = dados.destino;
+        chrome.storage.sync.get(["ativo", "origem", "destino", "email"], (dados) => {
+            if (dados.ativo !== undefined) config.ativo   = dados.ativo;
+            if (dados.origem)              config.origem  = dados.origem;
+            if (dados.destino)             config.destino = dados.destino;
+            if (dados.email)               config.email   = dados.email;
             Logger.info("Config carregada:", config);
             if (callback) callback(config);
         });
@@ -33,6 +34,7 @@ const Storage = (() => {
         if (changes.ativo   !== undefined) config.ativo   = changes.ativo.newValue;
         if (changes.origem  !== undefined) config.origem  = changes.origem.newValue;
         if (changes.destino !== undefined) config.destino = changes.destino.newValue;
+        if (changes.email   !== undefined) config.email   = changes.email.newValue || "";
         Logger.info("Config atualizada:", config);
         listeners.forEach(fn => fn(config));
     });

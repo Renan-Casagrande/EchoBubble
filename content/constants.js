@@ -5,7 +5,7 @@ const ECHOBUBBLE = {
 
     VERSION: "1.0.0",
 
-    CACHE_TTL_MS: 3600000, // 1 hora
+    CACHE_TTL_MS: 7 * 24 * 60 * 60 * 1000, // 7 dias
 
     DEBOUNCE_MS: 400,
 
@@ -130,7 +130,8 @@ const ECHOBUBBLE = {
     DEFAULTS: {
         ativo:   true,
         origem:  "pt",
-        destino: "en"
+        destino: "en",
+        email:   ""
     }
 
 };
