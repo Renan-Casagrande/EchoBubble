@@ -24,7 +24,7 @@ Converse em qualquer idioma sem sair do chat.
 ## 📷 Demonstração
 
 <p align="center">
-  <img src="assets/bannerEcho.png" alt="Banner EchoBubble">
+  <img src="docs/bannerEcho.png" alt="Banner EchoBubble">
 </p>
 
 ---
@@ -34,6 +34,20 @@ Converse em qualquer idioma sem sair do chat.
 Atualmente o EchoBubble suporta **27 idiomas**.
 
 Novos idiomas serão adicionados nas próximas versões.
+
+---
+
+## 📥 Instalação
+
+Disponível na Chrome Web Store:
+https://chromewebstore.google.com/detail/echobubble/nihgeeklpgnenhaopikdbaoeljlajakj
+
+---
+
+## ⚠️ Limite diário
+
+A tradução usa o serviço gratuito MyMemory, com limite de **5.000 caracteres por dia**.
+Informando seu e-mail (opcional) no popup da extensão, o limite sobe para **50.000 por dia**.
 
 ---
 
@@ -52,10 +66,12 @@ Novos idiomas serão adicionados nas próximas versões.
 - ✅ Tradução automática
 - ✅ Seleção de idioma
 - ✅ Cache inteligente
+- ✅ Publicação na Chrome Web Store
+- ✅ E-mail opcional para ampliar o limite diário
 - 🔄 Mais idiomas
 - 🔄 Mais APIs de tradução
+- 🔄 Tradução das mensagens enviadas
 - 🔄 Melhorias de desempenho
-- 🔄 Publicação na Chrome Web Store
 
 ---
 
